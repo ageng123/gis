@@ -85,7 +85,7 @@
       </center>
       <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
         <li class="uk-parent white-text">
-            <a href="#" class="bold-text white-text"><span uk-icon="foldergi"></span> Parent</a>
+            <a href="#" class="bold-text white-text"><span class="uk-margin-small-right" uk-icon="folder"></span> Transaksi</a>
             <ul class="uk-nav-sub">
                 <li><a href="#">Sub item</a></li>
                 <li>
@@ -98,8 +98,8 @@
             </ul>
         </li>
         <li class="uk-parent">
-            <a href="#">Parent</a>
-            <ul class="uk-nav-sub">
+          <a href="#" class="bold-text white-text"><span class="uk-margin-small-right" uk-icon="database"></span> Master Data</a>
+          <ul class="uk-nav-sub">
                 <li><a href="#">Sub item</a></li>
                 <li><a href="#">Sub item</a></li>
             </ul>
