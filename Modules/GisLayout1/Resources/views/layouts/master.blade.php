@@ -83,23 +83,28 @@
           </div>
           <br />
       </center>
-      <ul class="uk-nav uk-nav-default">
-
-          <li class="uk-nav-header white-text bold-text">  
-              UI Elements
-          </li>
-          <li ><a href="buttons.html">Buttons</a></li>
-          <li><a href="components.html">Components</a></li>
-          <li><a href="tables.html">Tables</a></li>
-
-          <li class="uk-nav-header white-text bold-text">
-              Pages
-          </li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="article.html">Article</a></li>
-    <li><a href="404.html">404</a></li>
-      </ul>
+      <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+        <li class="uk-parent white-text">
+            <a href="#" class="bold-text white-text"><span uk-icon="foldergi"></span> Parent</a>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li>
+                    <a href="#">Sub item</a>
+                    <ul>
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="uk-parent">
+            <a href="#">Parent</a>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+            </ul>
+        </li>
+    </ul>
   </div>
   <div class="content-padder content-background">
       <div class="uk-section-small uk-section-default header">
