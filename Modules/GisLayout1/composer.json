@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/gislayout1",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\GisLayout1\\Providers\\GisLayout1ServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GisLayout1\\": ""
+        }
+    }
+}

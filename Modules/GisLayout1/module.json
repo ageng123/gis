@@ -1,0 +1,13 @@
+{
+    "name": "GisLayout1",
+    "alias": "gislayout1",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\GisLayout1\\Providers\\GisLayout1ServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
